@@ -5,7 +5,7 @@ import crypto from 'crypto'
 
 import LinksRouter from './Routers/LinkRouter.js';
 import UsersRouter from './Routers/UserRouter.js';
-import connectDB from './Routers/database.js';
+import connectDB from './database.js';
 connectDB();
 const app = express()
 
